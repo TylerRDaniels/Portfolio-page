@@ -1,0 +1,290 @@
+
+body {
+    font-family: Ubuntu;
+}
+
+/* header */
+.so-list-item {
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.container1 {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    border-bottom: solid 5px   grey;
+}
+
+.push-up {
+    margin-top: 5em;
+}
+
+.Project-Section {
+    background-color: silver;
+    background-image: linear-gradient( silver, darkgrey,grey,rgb(73, 73, 73));
+}
+
+h1 {
+    font-family: Gemunu Libre;
+}
+
+.btn-silver {
+    color: white;
+    background-color: silver;
+}
+
+:hover.btn-silver {
+    color: white;
+    background-color: teal;
+}
+
+.nav-bar-item {
+    margin-left: 5px;
+}
+/* end header */
+
+/* car section */
+.car-border {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-div {
+
+    margin-bottom: 10px;
+}
+/* end car section */
+
+/* bio section */
+.bio-div {
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.bio-Section {
+    background-image: url(../media/code.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio-cont1 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(169,169,169,.7);
+    color: #fff;
+    border: transparent 10px;
+    border-radius: 5%;
+}
+
+.bio-cont2 {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 10px;
+    background-color: rgba(169,169,169,.7);
+    color: #fff;
+    border: transparent 10px;
+    border-radius: 5%;
+}
+
+.bio-cont3 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 10px;
+    background-color: rgba(169,169,169,.7);
+    color: #fff;
+    border: transparent 10px;
+    border-radius: 5%;
+}
+
+.head-img {
+    width: 160px;
+    height: 150px;
+    border: solid 5px rgb(73, 73, 73);
+    border-radius: 50%;
+}
+
+.bio-inner {
+    backdrop-filter: blur(8px);
+}
+.bio-sub-header {
+    text-align: center;
+}
+
+.bio-sub-header2 {
+    text-align: center;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    margin-bottom: 20px;
+}
+
+.bio-text {
+    text-indent: 35px;
+}
+/* end bio section */
+
+/* contact section */
+
+.contact-header {
+    padding-top: 25px;
+}
+
+.contact-list-nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-list-item {
+    height: 40px;
+    width: 40px;
+}
+
+.mis-contact-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.mis-contact-item {
+    padding-bottom: 10px;
+}
+
+.list-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-flex {
+    display: flex;
+    align-items: center;
+}
+
+.text-link {
+    color: white;
+}
+
+:hover.text-link {
+    color: teal;
+}
+
+.contact-list-link {
+    border: solid 20px silver;
+    border-radius: 100%;
+    background-color: silver;
+}
+
+:hover.contact-list-link {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    border: solid 20px teal;
+    border-radius: 100%;
+    background-color: teal;
+}
+/* end contact section */
+
+/* footer section */
+.foot-nav-marg {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-pad {
+    padding-top: 40px;
+}
+
+.footer-section {
+    background-color: rgb(73, 73, 73);
+}
+
+.footer-link {
+    color: silver;
+}
+
+:hover.footer-link {
+    color: teal;
+}
+
+.colophon-section {
+    display: flex;
+    align-items: center;
+}
+
+.colophon {
+    color: silver;
+    margin: 0px;
+}
+/* end footer section */
+
+
+/* Media qs */
+@media (max-width: 760px) {
+
+    /* text classes */
+.h1-text {
+    font-size: calc(30px + (220 - 100) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.h2-text {
+    font-size: calc(20px + (100 - 70) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.h3-text {
+    font-size: calc(17px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.h5-text {
+    font-size: calc(17px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.p-text {
+    font-size: calc(13px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+/* end text classes */
+
+    .push-up {
+        margin-top: 7em;
+    }
+
+    .card-hide {
+        display: none;
+    }
+
+    .margin-btm {
+        margin-bottom: 5px;
+    }
+
+    .card-size {
+        width: 50vw;
+    }
+
+    .bio-cont2 {
+        margin-bottom: 40px;
+    }
+
+    .bio-cont3 {
+        margin-top: 0px;
+    }
+
+}
+
+
+/* @media (max-width: 540px) {
+} */
+
+/* end Media qs */
